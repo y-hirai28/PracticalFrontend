@@ -6,11 +6,11 @@ import { useEffect, useState } from "react";
 import { Suspense } from "react";
 
 export default function ConfirmPage() {
-  return {
+  return (
     <Suspense fallback={<div>Loading...</div>}>
       <ConfilmPage />
     </Suspense>
-      };
+  );
 }
 
 function ConfilmPage() {
